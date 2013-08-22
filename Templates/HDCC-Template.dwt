@@ -1,0 +1,532 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Hawaiian Dredging Construction Company, Inc.</title>
+<!-- TemplateEndEditable -->
+
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="../css/screen.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../css/lightbox.css" type="text/css" media="screen" />
+
+<script language="JavaScript" src="../js/general.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/lightbox.js"></script>
+<script type="text/javascript" src="../js/thumbnailviewer2.js" defer="defer"></script>
+
+
+<!-- TemplateBeginEditable name="head" -->
+
+
+<!-- TemplateEndEditable -->
+
+
+
+<!-- TemplateParam name="HomeLayout" type="boolean" value="false" -->
+<!-- TemplateParam name="ProjectLayout" type="boolean" value="false" -->
+<!-- TemplateParam name="EditorialLayout" type="boolean" value="false" -->
+
+<!-- TemplateParam name="Home" type="boolean" value="false" -->
+
+<!-- TemplateParam name="Company" type="boolean" value="false" -->
+<!-- TemplateParam name="CompanyOverview" type="boolean" value="false" -->
+<!-- TemplateParam name="CompanyHistory" type="boolean" value="false" -->
+
+<!-- TemplateParam name="Services" type="boolean" value="false" -->
+
+<!-- TemplateParam name="Projects" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsIntro" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsHotelsResorts" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsCondominiums" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsHousing" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsCommercial" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsCivil" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsMedical" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsMilitaryConstruction" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsWaterfrontFoundation" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsPowerIndustrial" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsOther" type="boolean" value="false" -->
+	<!-- TemplateParam name="ProjectsLEED" type="boolean" value="false" -->
+
+
+<!-- TemplateParam name="Clients" type="boolean" value="false" -->
+
+<!-- TemplateParam name="History" type="boolean" value="false" -->
+	<!-- TemplateParam name="History1902" type="boolean" value="false" --> 
+	<!-- TemplateParam name="HistoryLandmarkProjects" type="boolean" value="false" -->
+	<!-- TemplateParam name="HistoryAfterStatehood" type="boolean" value="false" -->
+
+<!-- TemplateParam name="Careers" type="boolean" value="false" -->
+
+<!-- TemplateParam name="Sustainability" type="boolean" value="false" -->
+	<!-- TemplateParam name="SustainabilityOverview" type="boolean" value="false" --> 
+	<!-- TemplateParam name="SustainabilityGreenOhana" type="boolean" value="false" --> 
+	<!-- TemplateParam name="SustainabilityPulamaHonua" type="boolean" value="false" -->
+	<!-- TemplateParam name="SustainabilityLEEDProjects" type="boolean" value="false" -->
+	<!-- TemplateParam name="SustainabilityResources" type="boolean" value="false" -->
+	
+<!-- TemplateParam name="Contact" type="boolean" value="false" -->
+
+
+</head>
+
+<body>
+<div id="frame">
+<a name="top"></a>
+
+
+
+
+
+
+
+
+
+<!--  Header -->
+<div id="header">
+
+<table width="892" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="323"><a href="/default.htm">
+
+<!-- TemplateBeginIf cond="!Sustainability" --><img src="../images/Hawaiian-Dredging.gif" alt="Hawaiian Dredging Construction Company, Inc." width="323" height="85" border="0" /><!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="Sustainability" --><img src="../images/Hawaiian-Dredging-Green.gif" alt="Hawaiian Dredging Construction Company, Inc." width="323" height="85" border="0" /><!-- TemplateEndIf --></a></td>
+<td width="569" valign="top" align="right">
+
+<img src="../images/buildinghawaiisince1902.gif" alt="Building Hawaii Since 1902" width="209" height="51" border="0" /><br />
+
+<!--  Main Navigation -->
+	<div id="mainnav">
+	
+		<ul id="navlist">
+		<!-- TemplateBeginIf cond="!Home" --><li><a href="../default.htm">Home</a></li><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Home" --><li><a href="../default.htm" id="subactive">Home</a></li><!-- TemplateEndIf -->
+		
+		<!-- TemplateBeginIf cond="!Company" --><li><a href="../company/company.html">Company</a></li><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Company" --><li><a href="../company/company.html" id="subactive">Company</a></li><!-- TemplateEndIf -->
+				
+		<!-- TemplateBeginIf cond="!Services" --><li><a href="../services/services.html">Services</a></li><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Services" --><li><a href="../services/services.html" id="subactive">Services</a></li><!-- TemplateEndIf -->
+		
+		<!-- TemplateBeginIf cond="!Projects" -->	<li><a href="../projects/projects.html">Projects</a></li><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Projects" -->	<li><a href="../projects/projects.html" id="subactive">Projects</a></li><!-- TemplateEndIf -->
+	
+		<!-- TemplateBeginIf cond="!Sustainability" --><li><a href="../sustainability/sustainability.html">Sustainability</a></li><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Sustainability" --><li><a href="../sustainability/sustainability.html" id="subactive">Sustainability</a></li><!-- TemplateEndIf -->
+		
+		<!-- TemplateBeginIf cond="!Clients" --><li><a href="../clients/clients.html">Clients</a></li><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Clients" --><li><a href="../clients/clients.html" id="subactive">Clients</a></li><!-- TemplateEndIf -->
+	
+		<!-- TemplateBeginIf cond="!Careers" --><li><a href="../careers/careers.html">Careers</a></li><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Careers" --><li><a href="../careers/careers.html" id="subactive">Careers</a></li><!-- TemplateEndIf -->
+			
+		<!-- TemplateBeginIf cond="!Contact" --><li><a href="../contact/contact.html">Contact</a></li><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Contact" --><li><a href="../contact/contact.html" id="subactive">Contact</a></li><!-- TemplateEndIf -->
+		</ul>
+	
+	</div>
+		
+		</td></tr>
+</table>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ***********  HOME PAGE LAYOUT  *********** -->
+
+	<!-- TemplateBeginIf cond="!HomeLayout" --><!-- TemplateEndIf -->
+	<!-- TemplateBeginIf cond="HomeLayout" -->
+
+
+<!-- Home Flash Movie -->
+
+	<div id="homehero">
+
+		<!-- Start Flash -->
+		<script type="text/javascript" src="../js/swfobject.js"></script>
+		<div id="FlashContent1" style="width: 892px; height: 300px; background: #FFFFFF">
+		<img src="../images/no-flash.jpg" width="892" height="300" alt="Hawaiian Dredging Construction Company, Inc." border="0" />
+		
+		<script type="text/javascript">
+			// <![CDATA[
+			
+			var so = new SWFObject("homemovie.swf", "Hawaiian Dredging Construction Company, Inc.", "892", "300", "8", "#FFFFFF");
+			so.write("FlashContent1");
+			
+			// ]]>
+		</script>
+		</div>
+		<!-- End Flash -->
+
+	</div>
+	
+<!-- End Home Flash Movie -->
+
+
+
+
+<!-- Home Text -->
+
+<!-- TemplateBeginEditable name="Home" -->
+
+
+
+<!-- TemplateEndEditable -->	
+<!-- TemplateEndIf -->
+
+
+<!-- ***********  END HOME PAGE LAYOUT  *********** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="900" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="228" valign="top" bgcolor="#eff5fb">
+
+<!-- ***********  LEFT COLUMN  *********** -->
+
+		<div id="leftcol">
+		
+
+		<!-- TemplateBeginIf cond="!Company" --><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Company" -->
+		<div id="subnavcontainer">
+			<ul id="subnavlist">
+			<li>
+
+			<!-- TemplateBeginIf cond="!CompanyOverview" -->
+			<li><a href="../company/company.html">Company Overview</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="CompanyOverview" -->
+			<li><a href="../company/company.html" id="subactive">Company Overview</a></li><!-- TemplateEndIf -->
+
+			<!-- TemplateBeginIf cond="!CompanyHistory" --><li><a href="../company/history.html">History</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="CompanyHistory" --><li><a href="../company/history.html" id="subactive">History</a></li><!-- TemplateEndIf -->
+			
+			</ul>
+			</div>
+		<!-- TemplateEndIf -->
+
+
+
+	<!-- TemplateBeginIf cond="!Sustainability" --><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Sustainability" -->
+			<div id="subnavcontainer">
+			<ul id="subnavlist">
+			<li>
+			<!-- TemplateBeginIf cond="!SustainabilityOverview" --><li><a href="../sustainability/sustainability.html">Our Sustainability Mission</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="SustainabilityOverview" --><li><a href="../sustainability/sustainability.html" id="subactive">Our Sustainability Mission</a></li><!-- TemplateEndIf -->
+			
+			<!-- TemplateBeginIf cond="!SustainabilityGreenOhana" --><li><a href="../sustainability/green-ohana.html">Green Ohana</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="SustainabilityGreenOhana" --><li><a href="../sustainability/green-ohana.html" id="subactive">Green Ohana</a></li><!-- TemplateEndIf -->
+
+			<!-- TemplateBeginIf cond="!SustainabilityPulamaHonua" --><li><a href="../sustainability/pulama-honua.html">Pulama Honua</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="SustainabilityPulamaHonua" --><li><a href="../sustainability/pulama-honua.html" id="subactive">Pulama Honua</a></li><!-- TemplateEndIf -->
+			
+			<!-- TemplateBeginIf cond="!SustainabilityLEEDProjects" --><li><a href="../sustainability/leed-projects.html">LEED Projects</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="SustainabilityLEEDProjects" --><li><a href="../sustainability/leed-projects.html" id="subactive">LEED Projects</a></li><!-- TemplateEndIf -->			
+			
+			<!-- TemplateBeginIf cond="!SustainabilityResources" --><li><a href="../sustainability/resources.html">Resources in Hawaii</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="SustainabilityResources" --><li><a href="../sustainability/resources.html" id="subactive">Resources in Hawaii</a></li><!-- TemplateEndIf -->
+	
+			
+			</ul>
+			</div>
+		<!-- TemplateEndIf -->
+
+
+
+		
+		<!-- TemplateBeginIf cond="!Projects" --><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Projects" -->
+			<div id="subnavcontainer">
+			<ul id="subnavlist">
+			<li>
+
+			<!-- TemplateBeginIf cond="!ProjectsIntro" --><li><a href="../projects/projects.html">Introduction</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsIntro" --><li><a href="../projects/projects.html" id="subactive">Introduction</a></li><!-- TemplateEndIf -->
+			
+
+			<!-- TemplateBeginIf cond="!ProjectsHotelsResorts" --><li><a href="../projects/hotel-resort.html">Hotel &amp; Resort</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsHotelsResorts" --><li><a href="../projects/hotel-resort.html" id="subactive">Hotel &amp; Resort</a></li><!-- TemplateEndIf -->
+
+			<!-- TemplateBeginIf cond="!ProjectsMilitaryConstruction" --><li><a href="../projects/military-construction.html">Military Construction</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsMilitaryConstruction" --><li><a href="../projects/military-construction.html" id="subactive">Military Construction</a></li><!-- TemplateEndIf -->
+			
+			<!-- TemplateBeginIf cond="!ProjectsCivil" --><li><a href="../projects/civil.html">Civil</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsCivil" --><li><a href="../projects/civil.html" id="subactive">Civil</a></li><!-- TemplateEndIf -->
+			
+			<!-- TemplateBeginIf cond="!ProjectsPowerIndustrial" --><li><a href="../projects/power-industrial.html">Power &amp; Industrial</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsPowerIndustrial" --><li><a href="../projects/power-industrial.html" id="subactive">Power &amp; Industrial</a></li><!-- TemplateEndIf -->
+
+			<!-- TemplateBeginIf cond="!ProjectsMedical" --><li><a href="../projects/medical.html">Medical</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsMedical" --><li><a href="../projects/medical.html" id="subactive">Medical</a></li><!-- TemplateEndIf -->
+
+			<!-- TemplateBeginIf cond="!ProjectsWaterfrontFoundation" --><li><a href="../projects/waterfront-foundation.html">Waterfront &amp; Foundation</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsWaterfrontFoundation" --><li><a href="../projects/waterfront-foundation.html" id="subactive">Waterfront &amp; Foundation</a></li><!-- TemplateEndIf -->
+	
+			<!-- TemplateBeginIf cond="!ProjectsHousing" --><li><a href="../projects/housing.html">Housing</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsHousing" --><li><a href="../projects/housing.html" id="subactive">Housing</a></li><!-- TemplateEndIf -->				
+		
+			<!-- TemplateBeginIf cond="!ProjectsCommercial" --><li><a href="../projects/commercial.html">Commercial</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsCommercial" --><li><a href="../projects/commercial.html" id="subactive">Commercial</a></li><!-- TemplateEndIf -->			
+							
+			<!-- TemplateBeginIf cond="!ProjectsCondominiums" --><li><a href="../projects/condominium.html">Condominium</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsCondominiums" --><li><a href="../projects/condominium.html" id="subactive">Condominium</a></li><!-- TemplateEndIf -->
+
+			<!-- TemplateBeginIf cond="!ProjectsLEED" --><li><a href="../projects/leed.html">LEED Projects</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsLEED" --><li><a href="../projects/leed.html" id="subactive">LEED Projects</a></li><!-- TemplateEndIf -->		
+			
+			<!-- TemplateBeginIf cond="!ProjectsOther" --><li><a href="../projects/other.html">Other</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="ProjectsOther" --><li><a href="../projects/other.html" id="subactive">Other</a></li><!-- TemplateEndIf -->
+
+			
+			
+			</ul>
+			</div>
+		<!-- TemplateEndIf -->
+
+
+		<!-- TemplateBeginIf cond="!Clients" --><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Clients" -->
+		<!-- TemplateEndIf -->
+
+
+		<!-- TemplateBeginIf cond="!History" --><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="History" -->
+
+			<div id="subnavcontainer">
+			<ul id="subnavlist">
+			<!-- TemplateBeginIf cond="!History1902" --><li><a href="../company/history.html">Honolulu in 1902</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="History1902" --><li><a href="../company/history.html" id="subactive">Honolulu in 1902</a></li><!-- TemplateEndIf -->
+		
+			<!-- TemplateBeginIf cond="!HistoryLandmarkProjects" --><li><a href="../company/landmark-projects.html">Other Early Landmark Projects</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="HistoryLandmarkProjects" --><li><a href="../company/landmark-projects.html" id="subactive">Other Early Landmark Projects</a></li><!-- TemplateEndIf -->
+			
+			<!-- TemplateBeginIf cond="!HistoryAfterStatehood" --><li><a href="../company/after-statehood.html">After Statehood</a></li><!-- TemplateEndIf -->
+			<!-- TemplateBeginIf cond="HistoryAfterStatehood" --><li><a href="../company/after-statehood.html" id="subactive">After Statehood</a></li><!-- TemplateEndIf -->
+
+
+			</ul>
+			</div>
+
+
+		<!-- TemplateEndIf -->
+
+
+		<!-- TemplateBeginIf cond="!Careers" --><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Careers" -->
+		<!-- TemplateEndIf -->	
+
+
+		<!-- TemplateBeginIf cond="!Contact" --><!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Contact" -->
+		<!-- TemplateEndIf -->	
+
+
+
+
+
+		<!-- TemplateBeginEditable name="CallOut" -->
+		
+		<p class="callout">Call Out.... Performance through the team efforts of the people of Hawaiian Dredging Construction Company</p>
+		
+		<!-- TemplateEndEditable -->
+
+		</div>
+ 
+<!-- ***********  END LEFT COLUMN  *********** -->
+
+
+</td>
+
+<td width="672" valign="top">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ***********  CONTENT COLUMN  *********** -->
+
+<!-- ***********  PROJECT LAYOUT  *********** -->
+ 
+<!-- TemplateBeginIf cond="!ProjectLayout" --><!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="ProjectLayout" -->
+<div id="picturecol">
+
+<!--  Project Images Gallery -->
+
+<!-- TemplateBeginEditable name="Project" -->
+
+		<img src="../images/bldg1.jpg" lowsrc="../images/loadingimages.gif" width="668" height="400" id="kwMain" /><br />
+		
+		
+		<table width="668" cellpadding="0" cellspacing="0" border="0">
+		<tr valign="top">
+
+		<tr><td colspan="7" height="4"></td></tr>
+
+		<td width="164" height="70" class="tnail"><a href="javascript:;" onclick="kw_switch('../images/bldg1.jpg','Building Number 1')"><img src="../images/tn-bldg1.jpg" width="160" height="96" border="0" /></a><br />Building Number One</td>
+		<td width="4" nowrap="nowrap"></td>
+		<td width="164" height="70" class="tnail"><a href="javascript:;" onclick="kw_switch('../images/bldg2.jpg','Building Number 2')"><img src="../images/tn-bldg2.jpg" width="160" height="96" border="0" /></a><br />Building Number Two</td>
+		<td width="4" nowrap="nowrap"></td>
+		<td width="164" height="70" class="tnail"><a href="javascript:;" onclick="kw_switch('../images/bldg3.jpg','Building Number 3')"><img src="../images/tn-bldg3.jpg" width="160" height="96" border="0" /></a><br />Building Number Three</td>
+		<td width="4" nowrap="nowrap"></td>
+		<td width="164" height="70" class="tnail"><a href="javascript:;" onclick="kw_switch('../images/bldg4.jpg','Building Number 4')"><img src="../images/tn-bldg4.jpg" width="160" height="96" border="0" /></a><br />Building Number Four</td>
+		</tr>
+		
+		<tr><td colspan="7" height="4"></td></tr>
+
+		<tr valign="top">
+		<td width="164" height="70" class="tnail"><a href="javascript:;" onclick="kw_switch('../images/bldg1.jpg','Building Number 1')"><img src="../images/tn-bldg1.jpg" width="160" height="96" border="0" /></a><br />Building Number Five</td>
+		<td width="4" nowrap="nowrap"></td>
+		<td width="164" height="70" class="tnail"><a href="javascript:;" onclick="kw_switch('../images/bldg2.jpg','Building Number 2')"><img src="../images/tn-bldg2.jpg" width="160" height="96" border="0" /></a><br />Building Number Six</td>
+		<td width="4" nowrap="nowrap"></td>
+		<td width="164" height="70" class="tnail"><a href="javascript:;" onclick="kw_switch('../images/bldg3.jpg','Building Number 3')"><img src="../images/tn-bldg3.jpg" width="160" height="96" border="0" /></a><br />Building Number Seven</td>
+		<td width="4" nowrap="nowrap"></td>
+		<td width="164" height="70" class="tnail"><a href="javascript:;" onclick="kw_switch('../images/bldg4.jpg','Building Number 4')"><img src="../images/tn-bldg4.jpg" width="160" height="96" border="0" /></a><br />Building Number Eight</td>
+		</tr>
+		
+		</table>
+
+	
+<!-- TemplateEndEditable -->
+
+</div>
+<!-- TemplateEndIf -->
+
+
+
+
+
+
+
+
+
+<!-- ***********  EDITORIAL LAYOUT  *********** -->
+
+<!-- TemplateBeginIf cond="!EditorialLayout" --><!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="EditorialLayout" -->
+		<div id="editorialcolumn">
+
+<!--  Editorial Pages Text -->
+
+<!-- TemplateBeginEditable name="Editorial" -->
+
+
+		<h1>Hawaiian Dredging Construction Company</h1>
+		<p>Hawaiian Dredging Construction Company, Inc. is a Hawaii-based company.  Construction activities were started in 1902 by Walter Dillingham when he obtained a contract to dredge a channel into Pearl Harbor.  Later contracts to dredge the Ala Wai Canal, build piers, and fill land along Honolulu Harbor were awarded.  Up until 1905, over 5,000 acres of useable land, including much of today’s Waikiki, Ala Moana, and Kaka’ako, were filled and constructed by Hawaiian Dredging Construction Company.</p>
+		
+
+		<img src="../images/220_inset_img.jpg" align="right" width="110" height="153" />	
+		<h2>Projects today range from</h2>
+		<p>Projects today range from the building of hotels, resorts, condominiums, residential and military housing, office buildings, parking structures, and shopping centers to highways, military facilities, industrial projects, and renovation and repair work in the Pacific Basin.  As shown here, Hawaiian Dredging has built many landmark projects.</p>
+		<p>Today, Hawaiian Dredging Construction Company, Inc., a Kajima USA, Inc. company, offers design/build contracts, preconstruction services, design assistance to owner and Developer clients, construction management, and all the support an Owner could require.  Performance through the team efforts of the people of Hawaiian Dredging Construction Company, Inc. to its clients has been its strongest commitment throughout its ten decades in business.</p>
+
+		
+		<h3>Performance through the team</h3>
+		<p class="textsmall">Today, Hawaiian Dredging Construction Company, Inc., a Kajima USA, Inc. company, offers design/build contracts, preconstruction services, design assistance to owner and Developer clients, construction management, and all the support an Owner could require.  Performance through the team efforts of the people of Hawaiian Dredging Construction Company, Inc. to its clients has been its strongest commitment throughout its ten decades in business.</p>
+
+
+
+<!-- TemplateEndEditable -->
+
+</div>
+<!-- TemplateEndIf -->
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ***********  END EDITORIALY PAGE LAYOUT  *********** -->
+
+
+
+	<div id="footer">
+&copy; <script type="text/javascript">
+ today=new Date();
+ y0=today.getFullYear();
+</script>
+
+<script type="text/javascript">
+ <!-- Hide from old browsers
+  document.write(y0);
+ // end hiding -->
+</script> Hawaiian Dredging Construction Company, Inc. &middot; Phone: (808) 735-3211
+
+	</div>
+
+	
+
+
+</div>
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2716469-1";
+urchinTracker();
+</script>
+</body>
+</html>
