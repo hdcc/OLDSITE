@@ -27,6 +27,23 @@ height: 350px;
 margin-bottom: 30px;
 }
 
+#carouselnav {
+margin: 0 auto;
+width: 110px; /*Set JS to handle assigning the width for perfect fit */
+clear: both;
+}
+#carouselnav a 
+{
+display: inline-block;
+width: 18px;
+height: 18px;
+margin-right: 2px;
+}
+
+#carouselnav a.off { background: url(../images/glyph_off.gif) center center no-repeat; }
+#carouselnav a.on, #carouselnav a:hover { background: url(../images/glyph_on.gif) center center no-repeat; }
+
+
 #content {
 text-align:left;
 padding-top:40px;
