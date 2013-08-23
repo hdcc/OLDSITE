@@ -88,15 +88,19 @@ margin-bottom: 80px;
 #divisions div.division span { display: block; width: 415px; }
 #divisions div.division span h2 {  
 font-weight: bold;
-font-size: 1.6em;
+font-size: 2.4em;
 display: block; 
 margin-bottom: 10px;
+height: 35px;
+padding-top: 10px;
+padding-left: 48px;
 }
 #divisions div.division span p {  
-font-size: 1.2em;
-line-height: 1.3em;
-font-weight: 200;
+font-size: 1.4em;
+line-height: 1.4em;
+font-weight: 300;
 margin-bottom: 5px;
+letter-spacing: .1em;
 }
 #divisions div.division span img {  
 width: 361px;
@@ -114,6 +118,14 @@ border-bottom-right-radius: 0;
 #divisions div.division span.left { float: left; }
 #divisions div.division span.right { float: right; }
 
+
+#divisions div.division span h2#commercial { background: url(../images/division_glyphs_06.gif) top left no-repeat; }
+#divisions div.division span h2#building {  background: url(../images/division_glyphs_14.gif) top left no-repeat; }
+#divisions div.division span h2#waterfront { background: url(../images/division_glyphs_21.gif) top left no-repeat; }
+/* 
+#divisions div.division span h2#industrial {  }
+#divisions div.division span h2# {  }
+*/
 
 a {
 font-weight:bold;
