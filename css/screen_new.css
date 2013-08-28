@@ -14,6 +14,9 @@ font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 body {
 font-family:Verdana, Geneva, sans-serif;
 padding:0;
+
+/* ADD SUBTLE GRADIENT FOR SCROLL DOWN TRANSITION */
+
 }
 
 #header { overflow: auto; margin-top: 20px; margin-bottom: 30px; }
@@ -29,7 +32,7 @@ margin-bottom: 50px;
 
 #carouselnav {
 margin: 0 auto;
-width: 110px; /*Set JS to handle assigning the width for perfect fit */
+width: 114px; /*Set JS to handle assigning the width for perfect fit */
 clear: both;
 }
 #carouselnav a 
@@ -50,11 +53,12 @@ text-align:left;
 padding-top:40px;
 font-size:12px;
 line-height:18px;
-overflow: auto;
+position: relative;
+height: 100%;
 }
 
 #content h1.cointro { /*JS to resize for online only*/
-font-size: 5.3em;
+font-size: 4.9em;
 margin-bottom: 10px;
 line-height: 1em;
 font-weight: bold;
@@ -71,9 +75,14 @@ font-style: italic;
 font-size: 2em;
 font-weight: 100;
 text-decoration:underline;
-margin-bottom: 30px;
+margin-bottom: 40px;
 width: 100%;
 display: block;
+}
+#content h1.project_section { 
+height: 35px;
+padding-top: 12px;
+padding-left: 48px; 
 }
 
 #divisions { margin-bottom: 140px; }
@@ -88,11 +97,11 @@ margin-bottom: 80px;
 #divisions div.division span { display: block; width: 415px; }
 #divisions div.division span h2 {  
 font-weight: bold;
-font-size: 2.4em;
+font-size: 2.0em;
 display: block; 
 margin-bottom: 10px;
 height: 35px;
-padding-top: 10px;
+padding-top: 9px;
 padding-left: 48px;
 }
 #divisions div.division span p {  
@@ -115,38 +124,70 @@ border-bottom-right-radius: 0;
 .left {float: left;}
 .right { float: right;}
 
+
+
+div.projects { margin-bottom: 100px; }
+div.projects div.project {
+float: left;
+height: auto; 
+border-bottom: 1px solid #CCC;
+padding-bottom: 30px;
+margin-top: 30px;
+overflow: hidden;
+/*
+background-image: url("../images/project_bkg_03.gif");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+*/
+}
+.projects div.project h2 {  
+font-weight: 500;
+font-size: 2.2em;
+margin-bottom: 10px;
+padding-top: 9px;
+color: #5f5f5f;
+text-transform: uppercase;
+height: 35px;
+display: block;
+line-height: 1.1em;
+}
+.projects div.project p {  
+font-size: 1.4em;
+line-height: 1.4em;
+font-weight: 400;
+margin-bottom: 15px;
+letter-spacing: .1em;
+display: block;
+clear: both;
+}
+.projects div.project p.short { font-weight: 300; width: 45%;}
+.projects div.project p.hidden { display: none; }
+
+div.projects div.loadmore {
+height: 50px;
+border-bottom: none;
+padding-bottom: 10px;
+margin-top: 25px;
+background: none;
+}
+div.projects div.loadmore a { text-align: center; display: block; font-style: italic; }
+div.projects div.loadmore a:hover { font-style: normal; }
+
+
+
 #divisions div.division span.left { float: left; }
 #divisions div.division span.right { float: right; }
 
 
-#divisions div.division span h2#commercial { background: url(../images/division_glyphs_06.gif) top left no-repeat; }
-#divisions div.division span h2#building {  background: url(../images/division_glyphs_14.gif) top left no-repeat; }
-#divisions div.division span h2#waterfront { background: url(../images/division_glyphs_21.gif) top left no-repeat; }
+#divisions div.division span h2#commercial, #content h1#commercial { background: url(../images/division_glyphs_06.gif) top left no-repeat; }
+#divisions div.division span h2#building, #content h1#building {  background: url(../images/division_glyphs_14.gif) top left no-repeat; }
+#divisions div.division span h2#waterfront, #content h1#waterfront { background: url(../images/division_glyphs_21.gif) top left no-repeat; }
 /* 
 #divisions div.division span h2#industrial {  }
 #divisions div.division span h2# {  }
 */
 
-a {
-font-weight:bold;
-color:#000;
-text-decoration:underline;
-text-transform:uppercase;
-}
-
-a:hover {
-color:#333;
-text-decoration:none;
-}
-
-a.special {
-background-image:url(../images/arrow_special.gif);
-background-repeat:no-repeat;
-background-position:left top;
-padding-left:25px;
-text-transform:uppercase;
-color:#0097db;
-}
 
 #featured { padding-top: 45px; }
 #featured h1 { 
@@ -178,12 +219,30 @@ padding: 0;
 }
 
 #footer {
-text-align:center;
-font-size:9px;
-color:#ebe2d8;
-background-color:#444;
-clear:both
+background-color:#282828;
+clear:both;
+padding: 20px 0;
 }
+#footer span {
+display: block; 
+margin: 0 auto; 
+width: 307px; /* set width with JS */
+overflow: auto;
+}
+#footer_logo { 
+width: 72px;
+height: 47px;
+display: block;
+margin: 0;
+padding-top: 10px;
+}
+#footer p {
+color: #4c95b6;
+text-align: left;	
+font-size: .8em;
+padding-left: 20px;
+}
+
 
 div#navlist {
 float: right;
@@ -199,7 +258,7 @@ color:#666666;
 text-decoration:none;
 }
 
-#navlist a:hover,#navlist #subactive {
+#navlist a:hover, #navlist #subactive {
 color:#000;
 text-decoration:underline;
 }
