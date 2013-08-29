@@ -9,17 +9,33 @@ font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 */
 }
 
-.center { width: 900px; margin: 0 auto; }
+.relative { position: relative;}
+.absolute { position: absolute;}
+.center { width: 940px; margin: 0 auto; }
 
 body {
 font-family:Verdana, Geneva, sans-serif;
 padding:0;
-
 /* ADD SUBTLE GRADIENT FOR SCROLL DOWN TRANSITION */
-
 }
 
+
+
+
+/*HEADER ELEMENTS*/
+
 #header { overflow: auto; margin-top: 20px; margin-bottom: 30px; }
+#logo { display: block; float: left; padding: 0; margin: 0; }
+
+div#navlist {
+margin:0; 
+text-align: right;
+text-transform: uppercase;
+font-size: .75em;
+}
+#navlist a { display: inline-block; padding-left:10px; }
+#navlist a:link,#navlist a:visited { color:#666666; text-decoration:none; }
+#navlist a:hover, #navlist #subactive { color:#000; text-decoration:underline; }
 
 #preview {
 background-image: url(../images/trial_bkg.gif);
@@ -47,6 +63,8 @@ opacity: .5;
 #carouselnav a.off { background: url(../images/glyph_off.gif) center center no-repeat; }
 #carouselnav a.on, #carouselnav a:hover { background: url(../images/glyph_on.gif) center center no-repeat; }
 
+
+/*END HEADER ELEMENTS*/
 
 #content {
 text-align:left;
@@ -244,24 +262,22 @@ padding-left: 20px;
 }
 
 
-div#navlist {
-float: right;
-text-align: right;
-margin:0;
-text-transform: uppercase;
-font-size: .75em;
-}
 
-#navlist a { display: inline-block; padding-left:10px; }
-#navlist a:link,#navlist a:visited {
-color:#666666;
-text-decoration:none;
-}
-
-#navlist a:hover, #navlist #subactive {
-color:#000;
-text-decoration:underline;
-}
 
 a:visited { color: #000; }
+
+
+/* RESPONSIVE VIEWS FOR BOOTSTRAP */
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
 
