@@ -90,8 +90,9 @@ padding-left: 48px;
 min-height: 50px; 
 padding: 0 5px;
 border-bottom: 1px solid #CCC;
-overflow:auto;
+overflow: auto;
 margin-bottom: 80px;
+cursor: pointer;
 }
 
 #divisions div.division span { display: block; width: 415px; }
@@ -128,7 +129,6 @@ border-bottom-right-radius: 0;
 
 div.projects { margin-bottom: 100px; }
 div.projects div.project {
-float: left;
 height: auto; 
 border-bottom: 1px solid #CCC;
 padding-bottom: 30px;
@@ -262,4 +262,6 @@ text-decoration:none;
 color:#000;
 text-decoration:underline;
 }
+
+a:visited { color: #000; }
 
