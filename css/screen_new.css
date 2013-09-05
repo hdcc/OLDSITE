@@ -76,6 +76,7 @@ font-size:12px;
 line-height:18px;
 position: relative;
 height: 100%;
+margin-bottom: 120px;
 }
 
 #content h1.cointro { /*JS to resize for online only*/
@@ -142,10 +143,7 @@ border-bottom-right-radius: 0;
 margin: 0 auto;
 }
 
-
-
-div.projects { margin-bottom: 100px; }
-div.projects .project {
+div.project {
 height: auto; 
 border-bottom: 1px solid #CCC;
 padding-bottom: 30px;
@@ -159,7 +157,7 @@ background-repeat: no-repeat;
 background-position: center;
 */
 }
-.projects .project h2 {  
+div.project h2 {  
 font-weight: 500;
 font-size: 2.2em;
 margin-bottom: 10px;
@@ -170,7 +168,7 @@ height: 35px;
 display: block;
 line-height: 1.1em;
 }
-.projects .project p {  
+div.project p {  
 font-size: 1.4em;
 line-height: 1.4em;
 font-weight: 400;
@@ -179,17 +177,17 @@ letter-spacing: .1em;
 display: block;
 clear: both;
 }
-.projects .project p.short { font-weight: 300; width: 45%;}
-.projects .project p.hidden { display: none; }
+div.project p.short { font-weight: 300; width: 45%;}
+div.project p.hidden { display: none; }
 
-.projects div.loadmore {
+div.loadmore {
 height: 50px;
 border-bottom: none;
 padding-bottom: 10px;
 margin-top: 25px;
 background: none;
 }
-div.projects div.loadmore a { text-align: center; display: block; }
+div.loadmore a { text-align: center; display: block; }
 
 
 
