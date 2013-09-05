@@ -39,6 +39,16 @@ padding-top: 50px;
 #navlist a:link,#navlist a:visited { color:#666666; text-decoration:none; }
 #navlist a:hover, #navlist #subactive { color:#000; text-decoration:underline; }
 
+.navbar-wrapper {
+position: absolute;
+top: 0;
+left: 0;
+right: 0; 
+z-index: 10;
+margin-top: 20px;
+margin-bottom: -90px;
+}
+
 #preview {
 background-image: url(../images/trial_bkg.gif);
 background-size: cover;
@@ -48,9 +58,9 @@ height: 350px;
 margin-bottom: 50px;
 }
 
-#carouselnav {
+/*#carouselnav {
 margin: 0 auto;
-width: 114px; /*Set JS to handle assigning the width for perfect fit */
+width: 114px; Set JS to handle assigning the width for perfect fit 
 clear: both;
 }
 #carouselnav a 
@@ -64,7 +74,7 @@ opacity: .5;
 
 #carouselnav a.off { background: url(../images/glyph_off.gif) center center no-repeat; }
 #carouselnav a.on, #carouselnav a:hover { background: url(../images/glyph_on.gif) center center no-repeat; }
-
+*/
 
 /*END HEADER ELEMENTS*/
 
