@@ -70,5 +70,11 @@ $(function(){
 
 	//carousel slider on home page
 	$('#preview').carousel();
+	//set clicks on carousel a navigators
+
+
+	//instead of hover states with subtle dropdown, do a hover effect with an outer radial gradient glow on both sides of div 
+
+
 
 });

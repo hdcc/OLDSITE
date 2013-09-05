@@ -50,6 +50,7 @@ margin-bottom: -90px;
 }
 
 #preview {
+background-color: #333; 
 background-image: url(../images/trial_bkg.gif);
 background-size: cover;
 background-repeat: no-repeat;
