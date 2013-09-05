@@ -200,8 +200,8 @@ div.division div h2# {  }
 */
 
 
-#featured { padding-top: 45px; }
-#featured h1 { 
+.featured { padding-top: 45px; }
+.featured h1 { 
 font-size: 2.3em;
 letter-spacing: .04em;
 color: white;

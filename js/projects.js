@@ -69,5 +69,6 @@ $(function(){
 
 
 	//carousel slider on home page
+	$('#preview').carousel();
 
 });
