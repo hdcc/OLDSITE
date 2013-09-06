@@ -69,9 +69,15 @@ $(function(){
 
 
 	//carousel slider on home page
-	$('#preview').carousel();
+	$('#preview').carousel({
+		interval: 6000,
+		pause: "hover"
+	});
+	
 	//set clicks on carousel a navigators
-
+	$('.carousel-control.left').click(function() { $('#preview').carousel('prev'); });
+	$('.carousel-control.right').click(function() { $('#preview').carousel('next'); });
+	
 
 	//instead of hover states with subtle dropdown, do a hover effect with an outer radial gradient glow on both sides of div 
 
