@@ -132,7 +132,7 @@ opacity: .5;
 
 #content {
 text-align:left;
-padding-top:40px;
+padding-top:20px;
 font-size:12px;
 line-height:18px;
 position: relative;
@@ -141,26 +141,28 @@ margin-bottom: 120px;
 }
 
 #content h1.cointro { /*JS to resize for online only*/
-font-size: 4.9em;
+font-size: 9em;
 margin-bottom: 10px;
 line-height: 1em;
 font-weight: bold;
 }
 #content p.cointro {
-font-size: 1.6em;
+font-size: 3em;
 line-height: 1.5em;
 font-weight: normal;	
-margin-bottom: 80px;
+padding-bottom: 80px;
 color: #303030;
 }
+
 #content h1.section_title {
 font-style: italic;
-font-size: 2em;
+font-size: 4em;
 font-weight: 100;
 /*text-decoration:underline;*/
-margin-bottom: 30px;
+margin-bottom: 80px;
 width: 100%;
 display: block;
+text-align: center;
 }
 #content h1.project_section { 
 height: 35px;
@@ -203,6 +205,8 @@ border-bottom-left-radius: 0;
 border-bottom-right-radius: 0;
 margin: 0 auto;
 }
+a.divisionbtn { display: block; margin: 0 auto; }
+
 
 div.project {
 height: auto; 
