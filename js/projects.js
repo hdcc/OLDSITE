@@ -63,12 +63,14 @@ $(function(){
 	
 
 	//the see more button, or any element of the division div is clicked
-	.click(function(e){
+	$('.divisionbtn').click(function(e){
 		e.preventDefault();
 		//check to make sure this element doesn't have a class name
 			//find the parent element
-			//slidedown the div in that element with class of hide
-			//disable clicks by adding a class name to the div
+			$('.hide').slideDown('fast', function(){
+				$('.divisionbtn').addClass('clicked');//disable clicks by adding a class name to the btn
+			});
+			
 	});
 
 
