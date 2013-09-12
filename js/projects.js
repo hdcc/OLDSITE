@@ -60,6 +60,16 @@ $(function(){
 	// })
 
 	// fire off a click event on the elements btn element to drop down and reveal extra content
+	
+
+	//the see more button, or any element of the division div is clicked
+	.click(function(e){
+		e.preventDefault();
+		//check to make sure this element doesn't have a class name
+			//find the parent element
+			//slidedown the div in that element with class of hide
+			//disable clicks by adding a class name to the div
+	});
 
 
 

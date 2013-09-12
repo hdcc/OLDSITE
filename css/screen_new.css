@@ -156,7 +156,7 @@ color: #303030;
 
 #content h1.section_title {
 font-style: italic;
-font-size: 4em;
+font-size: 6em;
 font-weight: 100;
 /*text-decoration:underline;*/
 margin-bottom: 80px;
@@ -165,7 +165,7 @@ display: block;
 text-align: center;
 }
 #content h1.project_section { 
-height: 35px;
+height: 48px;
 padding-top: 5px;
 padding-left: 48px; 
 }
@@ -174,7 +174,7 @@ div.division {
 min-height: 50px; 
 padding: 0 5px;
 border-bottom: 1px solid #CCC;
-overflow: auto;
+overflow: hidden;
 margin-bottom: 80px;
 cursor: pointer;
 }
@@ -183,7 +183,7 @@ font-weight: bold;
 font-size: 2.0em;
 display: block; 
 margin-bottom: 10px;
-height: 35px;
+height: 48px;
 padding-top: 6px;
 padding-left: 48px;
 }
@@ -256,9 +256,12 @@ div.loadmore a { text-align: center; display: block; }
 
 
 
-div.division h2#commercial, #content h1#commercial { background: url(../images/division_glyphs_06.gif) top left no-repeat; }
-div.division h2#building, #content h1#building {  background: url(../images/division_glyphs_14.gif) top left no-repeat; }
+div.division h2#commercial, #content h1#commercial { background: url(../images/division_glyphs_14.gif) top left no-repeat; }
+div.division h2#building, #content h1#building {  background: url(../images/division_glyphs_06.gif) top left no-repeat; }
 div.division h2#waterfront, #content h1#waterfront { background: url(../images/division_glyphs_21.gif) top left no-repeat; }
+div.division h2#pandi, #content h1#pandi { background: url(../images/division_glyphs_22.gif) top left no-repeat; }
+div.division h2#heavy, #content h1#heavy { background: url(../images/division_glyphs_23.gif) top left no-repeat; }
+
 /* 
 div.division div h2#industrial {  }
 div.division div h2# {  }
