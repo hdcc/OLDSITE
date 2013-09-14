@@ -14,7 +14,9 @@
 
 <!-- STYLE SHEETS -->
 <!-- Google -->
-<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic|Roboto:400,100,100italic,300,300italic,500,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic|Roboto:400,100,100italic,300,300italic,500,700,900|Raleway:100,200' rel='stylesheet' type='text/css'>
+
+
 <!-- Bootstrap -->
 <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <!-- Custom Styles -->
@@ -152,13 +154,19 @@
        <a class="carousel_nav off" style="margin-right: 0;"></a>
     </div> -->
    
-    <div id="content" class="row-fluid center">
+    <div id="content" class="row-fluid center relative">
     	
+      <div class="absolute" style="right: 0; top: 40px; width: 80px;">
+        <img src="../images/down_bracket.gif" style= "opacity: 1;" />
+        <img src="../images/down_bracket.gif" style= "opacity: .55;"/>
+        <img src="../images/down_bracket.gif" style= "opacity: .32;" />
+      </div>
+
       <h1 class="cointro">6 / 30 world class hotels.<sup style="font-size: .5em;">*</sup></h1>
-      <p class="cointro">The big boys. 19,000 hotel rooms. 8,500 condominium units. Over 50% of Hawaii's highway system. Check out <a class="btn" href="all_projects.html">our projects</a>or browse one of our divisions below.</p>
+      <p class="cointro">The big boys. 19,000 hotel rooms. 8,500 condominium units. Over 50% of Hawaii's highway system. Check out <a class="btn" href="all_projects.html">our projects</a>or one of our five divisions below.</p>
        
       
-      <h1 class="section_title">Five Divisions</h1>
+      <h1 class="section_title">Divisions</h1>
       
       <div class="division">
            <div class="span5">
@@ -166,25 +174,39 @@
         		<p>Description of what the division does. Welcome the visitor to your project page and let them know what they should expect for taking the trouble to visit your page.</p>
             <a class="divisionbtn btn" href="#">see the projects</a> 
            </div>
-
            <div class="span5 offset2">
-            <img src="../images/division_03.gif" class="right" />
+            <img src="../images/division_03.gif" class="right main" />
            </div>
 
-            <div class="span12 hide">
-              <p>Lorem ipsum dolor sit amet, te quod malis duo. Ex sit odio unum nobis. Ius mundi graeci te. Est et cotidieque mediocritatem, at pri solet nostrum perpetua. Quas dicta malorum te mea, eros splendide qui et, duo at tincidunt forensibus.</p>
-              <p>Nibh eros lorem sea ex, ne iusto libris democritum eum, ad option periculis eum. Ei idque concludaturque pro. Cu discere persequeris mei, facilisis referrentur quo ad, his brute dicit propriae no. Vidit vivendo ad sit.</p>
-              <p>Ea ullum eirmod tacimates his. Graece omnium appellantur in mea, cu vim mutat populo sadipscing. Cum ornatus accusata mediocritatem ne. Mel inimicus iudicabit ad.</p>
-              <p>Et nec copiosae maluisset, te aeque cetero has, vero fastidii an pro. Iudico posidonium his no. Possim platonem est et, has at veri dolor utinam. Ut mel legendos posidonium reprehendunt, causae persequeris vix an, per id ipsum impedit consulatu. Per ut prima affert, sit an alia noluisse honestatis.</p>
-              <p>Has doming atomorum sapientem an. Salutatus voluptatibus ea mea. Ex sit alii atqui. Cu libris praesent duo. Ad eruditi voluptaria his.</p>
-              <a class="btn btn-primary" href="#" style="float: right; margin-right: 30px;">see the rest</a>
+            <div class="row-fluid hide extra">
+              <!-- <h3>An optional headline explaining the projects and the business division further. Or just some really cool marketing.</h3> -->
+              <div class="span4" style="margin-left:0;">
+                <h4>Aulani, a Disney Resort</h4>
+                <img src="../images/division_03.gif" class="" />
+                <p>Some introductory text that explains what the project is for and why it was important.</p>
+                <p>This was a really cool project. We completed it on time and below budget. Unheard of! </p>
+                <p>Disney chose us because they wanted to succeed. We were the sure bet.</p>
+                <a class="btn" href="#">Learn More</a>
+              </div>
+              <div class="span4">
+                <p style="width: 65%; text-align: center; margin: 40px auto 0 auto; font-size: 3em; font-weight: 100; color: #0067ad;">An incredible display of workmanship & engineering.</p>
+              </div>
+              <div class="span4">
+                <h4>Joint Traffic Center</h4>
+                <img src="../images/JTMC.gif" class="" />
+                <p>Some introductory text that explains what the project is for and why it was important.</p>
+                <p>This is the most technically sophistocated parking deck in all Hawaii. We completed it on time and below budget. Unheard of! </p>
+                <p>The city of Honolulu chose us because they wanted to succeed. We were the sure bet.</p>
+                <a class="btn" href="#">Learn More</a>
+              </div>
+              <a class="btn btn-primary" href="#" style="margin-top: 20px; float: right; clear: both;">see the rest</a>
            </div>
 
        </div>
        
        <div class="division">
         	<div class="span5">
-            <img src="../images/division_07.gif" class="left" /> 
+            <img src="../images/division_07.gif" class="left main" /> 
            </div>
           <div class="span5 offset2">
            	<h2 id="commercial">COMMERCIAL</h2>
@@ -200,13 +222,13 @@
              <a class="btn divisionbtn" href="#">see the projects</a> 
            </div>
            <div class="span5 offset2">
-           	<img src="../images/division_10.gif" class="right" /> 
+           	<img src="../images/division_10.gif" class="right main" /> 
            </div>
        </div>
            
        <div class="division">
         	<div class="span5">
-            <img src="../images/division_11.gif" class="left" /> 
+            <img src="../images/division_11.gif" class="left main" /> 
            </div>
           <div class="span5 offset2">
            	<h2 id="pandi">POWER & INDUSTRIAL</h2>
@@ -222,7 +244,7 @@
              <a class="btn divisionbtn" href="#">see the projects</a> 
            </div>
            <div class="span5 offset2">
-            <img src="../images/division_12.gif" class="right" /> 
+            <img src="../images/division_12.gif" class="right main" /> 
            </div>
        </div>
            

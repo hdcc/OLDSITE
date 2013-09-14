@@ -67,7 +67,9 @@ $(function(){
 		e.preventDefault();
 		//check to make sure this element doesn't have a class name
 			//find the parent element
-			$('.hide').slideDown('fast', function(){
+			//hide the clicked button
+			$(this).fadeOut(500);
+			$('.hide').slideDown( 500, function(){
 				$('.divisionbtn').addClass('clicked');//disable clicks by adding a class name to the btn
 			});
 			
