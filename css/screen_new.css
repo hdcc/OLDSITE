@@ -232,6 +232,32 @@ margin-left: 4px;
 div.extra div p { font-size: 1.2em; color: #aeaeae; padding: 0 4px;}
 div.extra div { margin: 50px 0; }
 div.extra div img { border-radius: 3px; }
+div.extra div p.ctrmsg { 
+width: 65%; 
+text-align: center; 
+margin: 40px auto 0 auto; 
+font-size: 3em; 
+font-weight: 100; 
+color: #0067ad; 
+}
+div.extra div p.lftmsg { 
+width: 65%; 
+margin-top: 40px; 
+font-size: 3em; 
+font-weight: 100; 
+color: #0067ad;
+}
+div.extra div p.rtmsg { 
+width: 65%; 
+text-align: center; 
+margin: 40px auto 0 auto; 
+font-size: 3em; 
+font-weight: 100; 
+color: #0067ad; 
+}
+
+div.hide a.btn-primary {margin-top: 20px; float: right; clear: both;}
+
 div.division .btn { margin-top: 20px;}
 
 
