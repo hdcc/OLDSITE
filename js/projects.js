@@ -65,23 +65,8 @@ $(function(){
 	//the see more button, or any element of the division div is clicked
 	$('.divisionbtn').click(function(e){
 		e.preventDefault();
-		//check to make sure this element doesn't have a class name
-			//find the parent element
-			//hide the clicked button
-			$(this).fadeOut(500);
-			$('.hide').slideDown( 500, function(){
-				$('.divisionbtn').addClass('clicked');//disable clicks by adding a class name to the btn
-			});
-			
+		$(this).fadeOut(500).parent().siblings('.hide').slideDown(500);			
 	});
-
-
-
-
-	//see more clicked
-	//hide the see more div
-	//fade in hidden content
-
 
 
 	//carousel slider on home page
