@@ -299,12 +299,11 @@ display: block;
 clear: both;
 }
 div.project p.short { font-weight: 300; width: 45%;}
-div.project img {
-border: 2px solid #CCC;
-border-radius: 4px;
-margin: 0 auto;
-padding: 2px;
-}
+
+.img-can { height: 100px; margin-top: 30px;}
+.img-can a {
+margin-right: 5px;
+}.img-can img { width: 20%; }
 
 div.loadmore {
 border-bottom: none;
