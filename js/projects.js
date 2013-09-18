@@ -85,8 +85,15 @@ $(function(){
 	$('.hide > div:nth-child(1)').css('margin-left','0');
 
 	$('.tilt').click(function(e){
-		$(this).removeClass('tilt');
-		$(this).children('.hidden').slideDown(500);
+		e.preventDefault();
+		$(this).removeClass('tilt').css('cursor', 'auto').children('.hidden').slideDown(500);
+	});
+
+	$('.loadmore').click(function(e){
+		e.preventDefault();
+		$(this).css('cursor', 'auto');
+		$(this).children('hide').slideDown(500);
+		$(this).children('a').eq(0).fadeOut('fast');
 	});
 
 });

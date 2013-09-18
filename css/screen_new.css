@@ -200,7 +200,6 @@ letter-spacing: .1em;
 }
 div.division img.main {  
 width: 100%;
-
 display: block;
 border: 2px solid #CCC;
 border-radius: 4px;
@@ -262,13 +261,11 @@ font-weight: 100;
 color: #0067ad; 
 }
 
-div.hide a.btn-primary {margin-top: 20px; float: right; clear: both;}
+.hide a.btn-primary {margin-top: 20px; float: right; clear:x both;}
 
-div.hide { border-top: 1px solid #e3e3e3;}
+.hide { border-top: 1px solid #e3e3e3; display: none; margin-left: 0; }
 
-div.division .btn { margin-top: 20px;}
-
-
+div.division .btn { margin-top: 20px; }
 
 
 
@@ -311,7 +308,6 @@ div.project p.short { font-weight: 300; width: 45%;}
 div.project p.hidden { display: none; }
 
 div.loadmore {
-height: 50px;
 border-bottom: none;
 padding-bottom: 10px;
 margin-top: 25px;
