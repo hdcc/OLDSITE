@@ -279,6 +279,7 @@ padding-bottom: 30px;
 margin-top: 30px;
 overflow: hidden;
 margin-left: 0;
+cursor: pointer;
 /*
 background-image: url("../images/project_bkg_03.gif");
 background-size: 100%;
@@ -319,12 +320,28 @@ background: none;
 div.loadmore a { text-align: center; display: block; }
 
 
-
 div.division h2#commercial, #content h1#commercial { background: url(../images/division_glyphs_14.gif) top left no-repeat; }
 div.division h2#building, #content h1#building {  background: url(../images/division_glyphs_06.gif) top left no-repeat; }
 div.division h2#waterfront, #content h1#waterfront { background: url(../images/division_glyphs_21.gif) top left no-repeat; }
 div.division h2#pandi, #content h1#pandi { background: url(../images/division_glyphs_22.gif) top left no-repeat; }
 div.division h2#heavy, #content h1#heavy { background: url(../images/division_glyphs_23.gif) top left no-repeat; }
+
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-1deg);
+     -moz-transform: rotate(-1deg);
+       -o-transform: rotate(-1deg);
+      -ms-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+}
 
 /* 
 div.division div h2#industrial {  }

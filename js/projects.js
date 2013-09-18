@@ -83,4 +83,10 @@ $(function(){
 	//instead of hover states with subtle dropdown, do a hover effect with an outer radial gradient glow on both sides of div 
 
 	$('.hide > div:nth-child(1)').css('margin-left','0');
+
+	$('.tilt').click(function(e){
+		$(this).removeClass('tilt');
+		$(this).children('.hidden').slideDown(500);
+	});
+
 });
