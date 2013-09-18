@@ -82,18 +82,22 @@ $(function(){
 
 	//instead of hover states with subtle dropdown, do a hover effect with an outer radial gradient glow on both sides of div 
 
-	$('.hide > div:nth-child(1)').css('margin-left','0');
 
 	$('.tilt').click(function(e){
 		e.preventDefault();
 		$(this).removeClass('tilt').css('cursor', 'auto').children('.hidden').slideDown(500);
 	});
 
+	// $('.project').hover(function(){
+	// 	if($(this).hasClass('tilt') == true) {
+	// 		$(this).css('cursor', 'pointer');
+	// 	}
+	// });
+
 	$('.loadmore').click(function(e){
 		e.preventDefault();
-		$(this).css('cursor', 'auto');
-		$(this).children('hide').slideDown(500);
-		$(this).children('a').eq(0).fadeOut('fast');
+		$(this).find('> .hide').slideDown(500);
+		$(this).children('a').eq(0).slideUp('fast');
 	});
 
 });

@@ -261,9 +261,10 @@ font-weight: 100;
 color: #0067ad; 
 }
 
+div.hide { display: none; }
 .hide a.btn-primary {margin-top: 20px; float: right; clear:x both;}
 
-.hide { border-top: 1px solid #e3e3e3; display: none; margin-left: 0; }
+
 
 div.division .btn { margin-top: 20px; }
 
@@ -276,13 +277,6 @@ padding-bottom: 30px;
 margin-top: 30px;
 overflow: hidden;
 margin-left: 0;
-cursor: pointer;
-/*
-background-image: url("../images/project_bkg_03.gif");
-background-size: 100%;
-background-repeat: no-repeat;
-background-position: center;
-*/
 }
 div.project h2 {  
 font-weight: 500;
@@ -305,12 +299,12 @@ display: block;
 clear: both;
 }
 div.project p.short { font-weight: 300; width: 45%;}
-div.project p.hidden { display: none; }
+div.project .hidden { display: none; }
 
 div.loadmore {
 border-bottom: none;
 padding-bottom: 10px;
-margin-top: 25px;
+margin-bottom: 130px;
 background: none;
 }
 div.loadmore a { text-align: center; display: block; }
@@ -337,6 +331,7 @@ div.division h2#heavy, #content h1#heavy { background: url(../images/division_gl
        -o-transform: rotate(-1deg);
       -ms-transform: rotate(-1deg);
           transform: rotate(-1deg);
+  cursor: pointer;
 }
 
 /* 
