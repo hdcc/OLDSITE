@@ -84,7 +84,7 @@ $(function(){
 
 
 	$('.tilt').click(function(e){
-		e.preventDefault();
+		
 		$(this).removeClass('tilt').css('cursor', 'auto').children('.hide').slideDown(500);
 	});
 
