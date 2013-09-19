@@ -83,8 +83,10 @@ $(function(){
 	//instead of hover states with subtle dropdown, do a hover effect with an outer radial gradient glow on both sides of div 
 
 
-	$('.tilt').click(function(e){
-		
+	$('.tilt')
+	.mouseenter(function(){ $(this).stop().animate({"margin-left": "+=5px"}, 200); })  
+	.mouseleave(function(){ $(this).stop().animate({"margin-left": "-=5px"}, 200); })
+	.click(function(e){
 		$(this).removeClass('tilt').css('cursor', 'auto').children('.hide').slideDown(500);
 	});
 
@@ -102,13 +104,13 @@ $(function(){
 
 	$('.fancybox').fancybox();
 	
-	$('.img-can a').stop()
-	.mouseover(function(e){ 
+	$('.img-can a')
+	.mouseenter(function(e){ 
 		e.preventDefault();
-		$(this).fadeTo('fast', 1);
-	}).mouseout(function(e){
+		$(this).stop().fadeTo('fast', 1);
+	}).mouseleave(function(e){
 		e.preventDefault();
-		$(this).fadeTo('fast', .6);
+		$(this).stop().fadeTo('fast', .6);
 	});
 
 });
