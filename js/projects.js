@@ -100,4 +100,15 @@ $(function(){
 		$(this).children('a').eq(0).slideUp('fast');
 	});
 
+	$('.fancybox').fancybox();
+	
+	$('.img-can a').stop()
+	.mouseover(function(e){ 
+		e.preventDefault();
+		$(this).fadeTo('fast', 1);
+	}).mouseout(function(e){
+		e.preventDefault();
+		$(this).fadeTo('fast', .6);
+	});
+
 });
