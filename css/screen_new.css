@@ -269,7 +269,12 @@ div.hide { display: none; }
 div.division .btn { margin-top: 20px; }
 
 
+/*.project [class*="span"] {
+  margin-left: 0;
+}
+*/
 
+.noleftmargin { margin-left: 0; }
 div.project {
 height: auto; 
 border-bottom: 1px solid #CCC;
