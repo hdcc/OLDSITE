@@ -87,7 +87,11 @@ $(function(){
 	.mouseenter(function(){ $(this).stop().animate({"margin-left": "+=5px"}, 200); })  
 	.mouseleave(function(){ $(this).stop().animate({"margin-left": "-=5px"}, 200); })
 	.click(function(e){
-		$(this).removeClass('tilt').css('cursor', 'auto').children('.hide').slideDown(500);
+		$(this).stop()
+		.animate({"margin-left": "-=5px"}, 200)
+		.unbind().css('cursor', 'auto')
+		.children('.hide')
+		.slideDown(500);
 	});
 
 	// $('.project').hover(function(){
@@ -96,10 +100,11 @@ $(function(){
 	// 	}
 	// });
 
-	$('.loadmore').click(function(e){
+	$('.loadbtn').click(function(e){
+		//e.stopPropagation();
 		e.preventDefault();
-		$(this).find('> .hide').slideDown(500);
-		$(this).children('a').eq(0).slideUp('fast');
+		$(this).parent('.loadmore').find('> .hide').slideDown(500);
+		$(this).slideUp('fast');
 	});
 
 	$('.fancybox').fancybox();

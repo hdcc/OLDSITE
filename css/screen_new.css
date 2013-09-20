@@ -198,7 +198,7 @@ font-weight: 300;
 margin-bottom: 5px;
 letter-spacing: .1em;
 }
-div.division img.main, .project .hide img.main {  
+img.main {  
 width: 100%;
 display: block;
 border: 2px solid #CCC;
@@ -298,24 +298,29 @@ letter-spacing: .1em;
 display: block;
 clear: both;
 }
-div.project p.short { font-weight: 300; width: 45%;}
 
-.img-can { padding: 0 10px; width: 100%; min-height: 80px; overflow: hidden; margin: 30px auto 0 auto;}
+.img-can { padding: 0 10px; min-height: 80px; overflow: hidden; margin: 30px auto 0 auto;}
 .img-can a { margin: 0 5px 10px 0; display: inline-block; opacity: .6; }
 .img-can img { 
-  height: 50px; 
-  border: 1px solid #CCC;
-  border-radius: 2px;
-  padding: 2px;
+height: 50px; 
+border: 1px solid #CCC;
+border-radius: 2px;
+padding: 2px;
 }
 
-div.loadmore {
+.loadmore {
 border-bottom: none;
 padding-bottom: 10px;
 margin-bottom: 130px;
 background: none;
 }
-div.loadmore a { text-align: center; display: block; }
+.loadmore a.loadbtn { 
+text-align: center; 
+display: block; 
+margin: 0 auto; 
+width: 20%; 
+margin-top: 30px; 
+}
 
 
 div.division h2#commercial, #content h1#commercial { background: url(../images/division_glyphs_14.gif) top left no-repeat; }
