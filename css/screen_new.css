@@ -88,7 +88,7 @@ margin-bottom: 50px;
     .carousel img {
       position: absolute;
       top: 0;
-      left: 0;
+      left: 650px;
     }
 
     .carousel-caption {
