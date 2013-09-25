@@ -87,11 +87,17 @@ $(function(){
 	.mouseenter(function(){ $(this).stop().animate({"margin-left": "+=5px"}, 200); })  
 	.mouseleave(function(){ $(this).stop().animate({"margin-left": "-=5px"}, 200); })
 	.click(function(e){
+		$(this).children('.reveal').slideUp('fast');
 		$(this).stop()
 		.animate({"margin-left": "-=5px"}, 200)
 		.unbind().css('cursor', 'auto')
 		.children('.hide')
 		.slideDown(500);
+	});
+
+	$('a.reveal').click(function(e){
+		e.preventDefault();
+		$(this).slideUp('fast').parent('.tilt').click();
 	});
 
 	// $('.project').hover(function(){
