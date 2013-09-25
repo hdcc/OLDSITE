@@ -68,15 +68,4 @@ $(function(){
 	});
 
 
-// ================================================== PROJ IMG CAROUSEL
- 	$('.bxslider').bxSlider({
- 		mode: 'fade',
-  		captions: true
- 	});
-
-// ------------------------------------------ END PROJ IMG CAROUSEL  
-
-
-
-
 });

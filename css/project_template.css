@@ -1,4 +1,3 @@
-
 .service 
 {
 border: 1px solid #000;
@@ -9,3 +8,8 @@ display: inline-block;
 margin-bottom: 10px;
 }
 .service:hover { cursor: pointer; }
+
+.bxslider li { left: -25px;}
+
+/*.bxslider img { display: block; margin: 0 auto;}
+*/
