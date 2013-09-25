@@ -55,7 +55,7 @@ $(function(){
 	});
 
 
-	$('.fancybox').fancybox();
+	// $('.fancybox').fancybox();
 	
 
 	$('.img-can a')
@@ -66,6 +66,17 @@ $(function(){
 		e.preventDefault();
 		$(this).stop().fadeTo('fast', .6);
 	});
+
+
+// ================================================== PROJ IMG CAROUSEL
+ 	$('.bxslider').bxSlider({
+ 		mode: 'fade',
+  		captions: true
+ 	});
+
+// ------------------------------------------ END PROJ IMG CAROUSEL  
+
+
 
 
 });
