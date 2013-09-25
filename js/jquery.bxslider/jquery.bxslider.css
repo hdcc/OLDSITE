@@ -26,6 +26,7 @@
 	display: block;
 }
 
+.bxslider li img { border-radius: 2px;}
 /** THEME
 ===================================*/
 
@@ -97,7 +98,7 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: 10px;
+	left: 35px;
 	background: url(images/controls.png) no-repeat 0 -32px;
 }
 
