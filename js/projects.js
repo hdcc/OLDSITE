@@ -55,7 +55,7 @@ $(function(){
 	});
 
 
-	// $('.fancybox').fancybox();
+	$('.fancybox').fancybox();
 	
 
 	$('.img-can a')

@@ -173,7 +173,7 @@ font-size: 3em;
 text-align: left;
 margin-bottom: 40px;
 }
-div#arrow_pointer { right: 0; top: 40px; width: 80px; }
+div#arrow_pointer { right: -135px; top: 40px; width: 80px; }
 
 div.division {
 min-height: 50px; 
