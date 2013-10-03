@@ -394,7 +394,7 @@ line-height: 1.2em;
 }
 
 
-
+.noleftmargin { margin-left: 0 } 
 /* RESPONSIVE VIEWS FOR BOOTSTRAP */
 
 /* Large desktop */
