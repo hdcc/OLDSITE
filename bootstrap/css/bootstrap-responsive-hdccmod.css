@@ -1,5 +1,5 @@
 /*!
- * Bootstrap Responsive v2.3.2
+ * Bootstrap Responsive HDCC mod v2.3.2.1
  *
  * Copyright 2012 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -133,7 +133,7 @@
   .navbar-fixed-bottom .container {
     width: 1170px;
   }
-  /*.span12 {
+  .span12 {
     width: 1170px;
   }
   .span11 {
@@ -204,7 +204,7 @@
   }
   .offset1 {
     margin-left: 130px;
-  }*/
+  }
   .row-fluid {
     width: 100%;
     *zoom: 1;
