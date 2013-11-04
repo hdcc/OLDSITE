@@ -3,7 +3,7 @@
 $(function(){
 
 	//randomly assign home page backgrounds
-	var range = Math.floor((Math.random()*5)+1); 
+	var range = Math.floor((Math.random()*6)+1); 
 	var imagePath = '"images/homepage_bkg_';
 	function randomBackground(){
 		$('.home-parallax').css('background-image', 'url(' + imagePath + range + '.png")');

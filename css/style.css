@@ -1921,10 +1921,7 @@ a#button-newsletter {
 
 
 /* MISCELANEOUS */
-.flex-control-nav { 
-display: none;
-}
-
-
+.flex-control-nav { display: none; }
+.client-logos a { margin-right: 30px; }
 
 
