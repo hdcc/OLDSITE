@@ -16,6 +16,10 @@ $(function(){
 	//background absolutely positioned with black color
 	//the background fades out.
 	
-	
+	setTimeout( function(){
+		var timing = 250;
+		$('#foldNav').slideDown(timing);
+		$('.flex-control-nav').fadeIn(timing);
+	}, 2500 );
 	
 });

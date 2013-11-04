@@ -402,13 +402,15 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 /*-----------------------------------------------------------------------------------*/
 
 .home-slide .home-slide-content {
-	font-family: 'BebasNeueRegular', sans-serif;
+	font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 90px;
+	font-weight: 400;
 	text-transform: uppercase;
 	position: relative;
 	margin-bottom: 0px;
 	text-align: center;
 	line-height: 1;
+
 }
 .home-parallax .home-slide-content {
 	padding: 55px 10px 50px;	
@@ -1536,7 +1538,7 @@ p.quote {
 	margin-top: 30px;
 	padding: 40px 0;
 	background: #242424;
-	color: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 0.7);
 	font-size: 11px;
 }
 .copyright a {
@@ -1913,6 +1915,14 @@ a#button-newsletter {
     width: 100% !important;
     height: 100% !important;
     position: absolute;
+}
+
+
+
+
+/* MISCELANEOUS */
+.flex-control-nav { 
+display: none;
 }
 
 
