@@ -270,7 +270,7 @@ html[xmlns] .slides {
 	left: auto;
 }
 #home-slider .flex-control-nav {
-	bottom: 0;
+	bottom: 12px;
 	top: auto;
 	left: auto;
 	text-align: center;

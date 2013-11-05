@@ -1923,5 +1923,12 @@ a#button-newsletter {
 /* MISCELANEOUS */
 .flex-control-nav { display: none; }
 .client-logos a { margin-right: 30px; }
-
+#navlist a { 
+display: inline-block; 
+margin-left: 30px; 
+font-family: 'BebasNeueRegular', sans-serif;
+font-size: 22px;
+margin-top: 12px;
+color: #515A5F;
+} #navlist a:hover { color: #0093d7; }
 
