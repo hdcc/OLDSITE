@@ -185,10 +185,10 @@ div.division h2 {
 font-weight: bold;
 font-size: 2.0em;
 display: block; 
-margin-bottom: 10px;
+/*margin-bottom: 10px;*/
 height: 48px;
 padding-top: 6px;
-padding-left: 48px;
+/*padding-left: 48px;*/
 }
 div.division p {  
 font-size: 1.4em;
@@ -327,11 +327,11 @@ margin-top: 30px;
 }
 
 
-div.division h2#commercial, #content h1#commercial { background: url(../images/division_glyphs_14.gif) top left no-repeat; }
+/*div.division h2#commercial, #content h1#commercial { background: url(../images/division_glyphs_14.gif) top left no-repeat; }
 div.division h2#building, #content h1#building {  background: url(../images/division_glyphs_06.gif) top left no-repeat; }
 div.division h2#waterfront, #content h1#waterfront { background: url(../images/division_glyphs_21.gif) top left no-repeat; }
 div.division h2#pandi, #content h1#pandi { background: url(../images/division_glyphs_22.gif) top left no-repeat; }
-div.division h2#heavy, #content h1#heavy { background: url(../images/division_glyphs_23.gif) top left no-repeat; }
+div.division h2#heavy, #content h1#heavy { background: url(../images/division_glyphs_23.gif) top left no-repeat; }*/
 
 
 .tilt:hover { cursor: pointer; }

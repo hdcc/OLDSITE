@@ -47,8 +47,7 @@
 <!-- Flexslider -->
 <script type="text/javascript" src="js/flexslider/jquery.flexslider-min.js"
 
-<!-- Custom JS Logic -->
-<script src="js/homepage.js"></script>
+<script type="text/javascript" src="js/homepage.js"></script>
 
 <!-- TemplateBeginEditable name="extrastyles" -->
 
