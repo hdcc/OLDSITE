@@ -57,6 +57,7 @@ background-repeat: no-repeat;
 background-position: top left;
 height: 350px;
 margin-bottom: 50px;
+overflow: hidden;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -86,9 +87,7 @@ margin-bottom: 50px;
       height: 500px;
     }
     .carousel img {
-      position: absolute;
-      top: 0;
-      left: 650px;
+      float: right;
     }
 
     .carousel-caption {
@@ -96,8 +95,7 @@ margin-bottom: 50px;
       position: static;
       max-width: 350px;
       padding: 0 20px;
-      margin-top: 80px;  
-	  margin-left: 120px;
+      margin-top: 60px;  
     }
     .carousel-caption h1,
     .carousel-caption .lead {
@@ -142,16 +140,16 @@ margin-bottom: 80px;
 }
 
 #content h1.cointro { /*JS to resize for online only*/
-font-size: 9em;
+font-size: 4em;
 margin-bottom: 10px;
 line-height: 1em;
-font-weight: bold;
+font-weight: 300;
 text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
 #content p.cointro {
-font-size: 3em;
+font-size: 2em;
 line-height: 1.5em;
-font-weight: normal;	
+font-weight: 300;	
 padding-bottom: 80px;
 color: #303030;
 }
