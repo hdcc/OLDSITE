@@ -183,6 +183,7 @@ margin-bottom: 120px;
 /*cursor: pointer;*/
 }
 div.division h2 { 
+float: left;
 text-align: center; 
 font-weight: 400;
 font-size: 2.0em;
@@ -406,8 +407,11 @@ line-height: 1.2em;
 @media (min-width: 768px) and (max-width: 979px) { ... }
  
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { ... }
+@media (max-width: 767px) { 
+div#navlist { clear: left; }
+}
  
 /* Landscape phones and down */
-@media (max-width: 480px) { ... }
+@media (max-width: 480px) { 
 
+}
