@@ -189,11 +189,13 @@ font-weight: 400;
 font-size: 2.0em;
 display: block; 
 /*margin-bottom: 10px;*/
-height: 48px;
+height: 100%;
 padding-top: 6px;
+width: 100%;
 /*padding-left: 48px;*/
 }
 div.division p {  
+clear: left;
 font-size: 1.4em;
 line-height: 1.4em;
 font-weight: 300;
